@@ -176,6 +176,7 @@ p {
 .img3 {
     width: 70px;
     height: 70px;
+    border-radius: 50%;
     /* background-color: black; */
     background-image: url(/DSC_0085.JPG);
     background-size: cover;
@@ -204,3 +205,120 @@ p {
     align-items: center;
 }
 
+#behindReview {
+    /* width: 1097px; */
+    height: 363px;
+    background: #F8FAFC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 42px;
+    margin-top: 76px;
+    margin-left: 59px;
+    margin-right: 124px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#img4 {
+    width: 64px;
+    height: 63px;
+    border-radius: 50%;
+    margin: 39px 0px 0px 43px;
+    background-image: url(/p5.jpg);
+    background-size: cover;
+}
+
+.reviews {
+    width: 285px;
+    height: 263px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 30px;
+    margin-top: -200px;
+    padding-top: 28px;
+}
+
+.img5 {
+    width: 42px;
+    height: 43px;
+    background-image: url(/DSC_0085.JPG);
+    background-size: cover;
+    margin: 0px 0px 0px 31px;
+    border-radius: 50%;
+}
+
+#name {
+    /* width: 54px; */
+    height: 18px;
+    text-align: left;
+    font: normal normal 600 13px/18px Nunito Sans;
+}
+
+#des {
+    /* width: 26px; */
+    height: 18px;
+    text-align: left;
+    font: normal normal 600 13px/18px Nunito Sans;
+}
+
+.reviewer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.names {
+    margin-left: 8px;
+}
+
+#reviewSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 180px;
+    margin-right: 194px;
+}
+
+.logo {
+    width: 185px;
+    height: 58px;
+    /* background-color: tan; */
+    background-image: url(/p7);
+    background-size: contain;
+}
+
+.logoname {
+    width: 118px;
+    height: 24px;
+    text-align: center;
+    font: normal normal bold 18px/24px Nunito Sans;
+}
+
+#sponser {
+    margin-top: 159px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#nav {
+    margin: 190px 0px 0px 0px;
+    background-color: black;
+    /* width: 1280px; */
+    height: 369px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#credit {
+    margin-top: 340px;
+    width: 126px;
+    height: 24px;
+    color: white;
+}
+#namelink{
+    color: white;
+    text-decoration: none;
+
+}
