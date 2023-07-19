@@ -71,6 +71,11 @@ body {
     margin-top: 50px;
     margin-left: 121px;
 }
+#nnn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 #img1 {
     width: 509px;
@@ -103,7 +108,6 @@ body {
 
 #p1 {
     font: normal normal bold 35px/47px Nunito Sans;
-    ;
     height: 47px;
     margin-top: 250px;
 }
@@ -321,4 +325,9 @@ p {
     color: white;
     text-decoration: none;
 
+}
+.ceo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
