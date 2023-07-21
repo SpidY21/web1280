@@ -331,3 +331,11 @@ p {
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media(width: 390px){
+    html{
+        font-size: 50%;
+        width: 50%;
+        margin: 10%;
+    }
+}
