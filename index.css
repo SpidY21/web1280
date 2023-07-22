@@ -71,7 +71,8 @@ body {
     margin-top: 50px;
     margin-left: 121px;
 }
-#nnn{
+
+#nnn {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -321,19 +322,34 @@ p {
     height: 24px;
     color: white;
 }
-#namelink{
+
+#namelink {
     color: white;
     text-decoration: none;
 
 }
-.ceo{
+
+.ceo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-@media(width: 390px){
-    html{
+#stars{
+    display: flex;
+    flex-direction: row;
+}
+
+.star {
+    width: 14px;
+    height: 14px;
+    background-image: url(/stars.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+@media(width: 390px) {
+    html {
         font-size: 50%;
         width: 50%;
         margin: 10%;
